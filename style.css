@@ -76,3 +76,27 @@ input {
 #Calcular {
     width: 100%;
 }
+
+@media (max-width: 600px){
+
+    .container {
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .container > p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .orcamento {
+        padding: 20px;
+    }
+
+}
